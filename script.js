@@ -26,7 +26,7 @@ function SendChatGPT(text) {
     
     oHttp.setRequestHeader("Accept", "application/json");
     oHttp.setRequestHeader("Content-Type", "application/json");
-    var OPENAI_API_KEY ="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";
+    var OPENAI_API_KEY ="";
     oHttp.setRequestHeader("Authorization", "Bearer " + OPENAI_API_KEY)
     //sendTextMessage("2");
     // Get the user's IP address
